@@ -27,4 +27,3 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 I’m an Economics doctoral candidate at JNU, New Delhi, passionate about exploring the intricacies of labour market outcomes, health and family dynamics. When I’m not engaged in my research, you can find me occupied in a book -mostly non-fiction, experimenting in the kitchen, participating in quizzes, fitness keeping or enjoying a good game of cricket. This is my canvas for updating you on my academic pursuits.
-
