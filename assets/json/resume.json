@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Noyel Sebastian",
+    "position": "Senior Research Fellow",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "noyelaniyara@gmail.com",
+    "phone": "+91 8606872028",
+    "url": "https://noyelsebastian.github.io/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Centre for the Study of the World Economy\nSchool of International Studies\nJawaharlal Nehru University",
+      "postalCode": "110067",
+      "city": "New Delhi",
+      "countryCode": "India",
+      "region": ""
     },
     "profiles": [
       {
