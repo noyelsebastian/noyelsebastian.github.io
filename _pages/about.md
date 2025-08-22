@@ -1,8 +1,8 @@
 ---
 layout: about
-title: **<b>About</b>**
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>.
+#subtitle: <a href='#'>Affiliations</a>.
 
 profile:
   align: right
