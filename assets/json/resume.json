@@ -151,13 +151,21 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Malayalam",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {"language": "Tamil",
+      "fluency": "",
+      "icon": ""
+    },
+    {"language": "French",
+      "fluency": "Elementary proificiency",
       "icon": ""
     }
   ],

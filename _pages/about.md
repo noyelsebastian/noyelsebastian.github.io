@@ -7,11 +7,13 @@ permalink: /
 profile:
   align: right
   image: Noyel_DC.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-  <p>"Centre for the Study of the World Economy\nSchool of International Studies\nJawaharlal Nehru University"</p>
-  <p>"New Delhi - 110067</p>
-  <p>India</p>
+    <p>"Centre for the Study of the World Economy"</p>
+    <p>"School of International Studies"</p>
+    <p>"Jawaharlal Nehru University"</p>
+    <p>"New Delhi - 110067"</p>
+    <p>"India"</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
