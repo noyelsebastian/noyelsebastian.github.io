@@ -466,7 +466,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/www.linkedin.com/in/noyel-sebastian-501a87175", "_blank");
+          window.open("https://www.linkedin.com/in/Noyel Sebastian", "_blank");
         },
       },{
         id: 'social-orcid',
