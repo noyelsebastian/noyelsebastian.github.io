@@ -1,6 +1,6 @@
 ---
 layout: page
-title: **<b>Resources</b>**
+title: Resources
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: True
