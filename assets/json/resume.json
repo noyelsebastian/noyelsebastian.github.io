@@ -13,14 +13,7 @@
       "city": "New Delhi",
       "countryCode": "India",
       "region": ""
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
   },
   "work": [
     {
@@ -33,7 +26,6 @@
       "highlights": ["Relativity"]
     }
   ],
-  
   "education": [
     {
       "institution": "Centre for Studies of the World Economy (formerly CITD)",
@@ -51,7 +43,7 @@
       "startDate": "June 2019",
       "endDate": "June 2021"
     },
-     {
+    {
       "institution": "Loyola College",
       "location": "Chennai, Tamil Nadu",
       "area": "Economics",
@@ -60,27 +52,27 @@
       "endDate": "May 2019"
     }
   ],
-  "Fellowships and Honours": [
+  "fellowshipsAndHonours": [
     {
       "title": "Junior Research Fellowship (JRF)",
       "date": "2022",
-      "awarder": "University Grants Commission (UGC)",
+      "awarder": "University Grants Commission (UGC)"
     },
     {
       "title": "Loyola Research Park Fellowship",
       "date": "2017-18",
-      "awarder": "Loyola College, Chennai",
+      "awarder": "Loyola College, Chennai"
     },
-     {
+    {
       "title": "Best Youth Paper Award",
       "date": "2023",
-      "awarder": "IASSH International Conference",
+      "awarder": "IASSH International Conference"
     },
     {
       "title": "Best Presentation Award",
       "date": "2023",
-      "awarder": "DG Vaishnav College, Chennai",
-    } 
+      "awarder": "DG Vaishnav College, Chennai"
+    }
   ],
   "certificates": [
     {
