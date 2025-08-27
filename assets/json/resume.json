@@ -32,27 +32,27 @@
       "location": "Jawaharlal Nehru University, New Delhi",
       "area": "Applied Microeconomics",
       "studyType": "PhD",
-      "startDate": "February 2023",
-      "endDate": "February 2027 (exp)"
+      "startDate": "2023-02",
+      "endDate": "2027-02"
     },
     {
       "institution": "Department of Economics, University of Kerala",
       "location": "Thiruvananthapuram, Kerala",
       "area": "Economics",
       "studyType": "Post Graduation",
-      "startDate": "June 2019",
-      "endDate": "June 2021"
+      "startDate": "2019-06",
+      "endDate": "2021-06"
     },
     {
       "institution": "Loyola College",
       "location": "Chennai, Tamil Nadu",
       "area": "Economics",
       "studyType": "Under Graduation",
-      "startDate": "June 2016",
-      "endDate": "May 2019"
+      "startDate": "2016-06",
+      "endDate": "2019-05"
     }
   ],
-  "fellowshipsAndHonours": [
+  "awards": [
     {
       "title": "Junior Research Fellowship (JRF)",
       "date": "2022",
