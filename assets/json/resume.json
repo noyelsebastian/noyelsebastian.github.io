@@ -47,15 +47,28 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Centre for Studies of the World Economy (formerly CITD)",
+      "location": "Jawaharlal Nehru University, New Delhi",
+      "area": "Applied Microeconomics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "February 2023",
+      "endDate": "February 2027 (exp)"
+    }
+    {
+      "institution": "Department of Economics, University of Kerala",
+      "location": "Thiruvananthapuram, Kerala",
+      "area": "Economics",
+      "studyType": "Post Graduation",
+      "startDate": "June 2019",
+      "endDate": "June 2021"
+    }
+     {
+      "institution": "Loyola College",
+      "location": "Chennai, Tamil Nadu",
+      "area": "Economics",
+      "studyType": "Under Graduation",
+      "startDate": "June 2016",
+      "endDate": "May 2019"
     }
   ],
   "awards": [
