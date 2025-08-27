@@ -33,18 +33,7 @@
       "highlights": ["Relativity"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  
   "education": [
     {
       "institution": "Centre for Studies of the World Economy (formerly CITD)",
@@ -53,7 +42,7 @@
       "studyType": "PhD",
       "startDate": "February 2023",
       "endDate": "February 2027 (exp)"
-    }
+    },
     {
       "institution": "Department of Economics, University of Kerala",
       "location": "Thiruvananthapuram, Kerala",
@@ -61,7 +50,7 @@
       "studyType": "Post Graduation",
       "startDate": "June 2019",
       "endDate": "June 2021"
-    }
+    },
      {
       "institution": "Loyola College",
       "location": "Chennai, Tamil Nadu",
@@ -71,14 +60,27 @@
       "endDate": "May 2019"
     }
   ],
-  "awards": [
+  "Fellowships and Honours": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+      "title": "Junior Research Fellowship (JRF)",
+      "date": "2022",
+      "awarder": "University Grants Commission (UGC)",
+    },
+    {
+      "title": "Loyola Research Park Fellowship",
+      "date": "2017-18",
+      "awarder": "Loyola College, Chennai",
+    },
+     {
+      "title": "Best Youth Paper Award",
+      "date": "2023",
+      "awarder": "IASSH International Conference",
+    },
+    {
+      "title": "Best Presentation Award",
+      "date": "2023",
+      "awarder": "DG Vaishnav College, Chennai",
+    } 
   ],
   "certificates": [
     {
