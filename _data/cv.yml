@@ -3,30 +3,38 @@
   contents:
     - name: Full Name
       value: Noyel Sebastian
+    - name: Position
+      value: Senior Research Fellow
+    - name: email
+      value: noyelaniyara@gmail.com
     - name: Date of Birth
-      value: 16th February 1998
-    - name: Languages
-      value: Malayalam (native), English, Hindi
+      value: 16-02-1998
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: CSWE (CITD) / Jawaharlal Nehru University, New Delhi
+      year: 2023-2027
       description:
-        - Description 1.
-        - Description 2.
+        - Advisor - Dr. Rashmi Barua
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Post Graduation
+      institution: Department of Economics, University of Kerala, Thiruvananthapuram
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Economics
+        - CGPA - 8.50 
+    - title: Under Graduation
+      institution: Loyola College, Chennai, Tamil Nadu
+      year: 2019
+      description:
+        - Economics
+        - CGPA - 8.52 
+      
 
 - title: Experience
   type: time_table
