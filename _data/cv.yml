@@ -14,71 +14,69 @@
   type: time_table
   contents:
     - title: PhD
-      institution: CSWE (CITD) / Jawaharlal Nehru University, New Delhi
-      year: 2023-02 - 2027-02
+      institution: CSWE (CITD), Jawaharlal Nehru University, New Delhi
+      year: "2023-02 – 2027-02"
       description:
-        - Advisor - Dr. Rashmi Barua
-      description: Areas of Interests :Applied Microeconomics - Gender, Labour and Health
-    - title: Master of Arts
+        - Advisor: Dr. Rashmi Barua
+        - Areas of interest: Applied Microeconomics (Gender, Labour, Health)
+    - title: Master of Arts in Economics
       institution: Department of Economics, University of Kerala, Thiruvananthapuram
-      year: 2019-21
-      description: Economics
-      contents:
-          - CGPA - 8.50 (Third Rank)
-    - title: Bachelor of Arts
+      year: "2019 – 2021"
+      description:
+        - CGPA: 8.50 (Third Rank)
+    - title: Bachelor of Arts in Economics
       institution: Loyola College, Chennai, Tamil Nadu
-      year: 2016-2019
-      description: Economics
-      contents:
-        - CGPA - 8.52 
-      
+      year: "2016 – 2019"
+      description:
+        - CGPA: 8.52
 
 - title: Experience
   type: time_table
   contents:
-  - title: Teaching Assistant
-    institution: CSWE, Jawaharlal Nehru University, New Delhi
-    description:
-        - Microeconomics I with Prof. Sushama Murty, Graduate Level (Monsoon 2025 Ongoing)
+    - title: Teaching Assistant
+      institution: CSWE, Jawaharlal Nehru University, New Delhi
+      year: "2024 – 2025"
+      description:
+        - Microeconomics I with Prof. Sushama Murty, Graduate Level (Monsoon 2025, ongoing)
         - Microeconomics I with Prof. Sushama Murty, Graduate Level (Monsoon 2024)
-    -title: Internship
-    institution:  Economic Research Wing, Rubber Research Institute of India, Ministry of Commerce and Industry,
-        Government of India
-    year: 2018-12
+    - title: Internship
+      institution: Economic Research Wing, Rubber Research Institute of India, Ministry of Commerce and Industry, Government of India
+      year: "2018-12"
+      description: []
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - Best Youth Paper Award, IASSH international conference
-        - Best Presentation Award, International conference, DG Vaishnav college, Chennai
+        - Best Youth Paper Award, IASSH International Conference
+        - Best Presentation Award, International Conference, DG Vaishnav College, Chennai
     - year: 2022
       items:
-        - University Grants Commission-Junior Research Fellowship (UGC-JRF)
+        - University Grants Commission – Junior Research Fellowship (UGC-JRF)
     - year: 2017
-      items: 
-        - Loyola Research Park Fellowship.
+      items:
+        - Loyola Research Park Fellowship
 
-  -title: Conferences and Research Presentations
+- title: Conferences and Research Presentations
   type: time_table
   contents:
     - year: 2025
       items:
         - Young Scholar's Conference, Delhi School of Economics
-        - Research Scholar's Day, IIT-Kanpur
+        - Research Scholar's Day, IIT Kanpur
         - Doctoral Colloquium, CDS Thiruvananthapuram
         - LEO Economics Conference, Plaksha University, Chandigarh
-        - 27th AHE conference -- YSI editorial session, King's College, London (online)
-        - Amitava Bose Memorial Annual Workshop 2025, IIM Calcutta 
-        - 6th Meeting of the Society of Family and Gender Economics, Brasilia, Brazil (Accepted, could not attend.)
+        - 27th AHE Conference — YSI Editorial Session, King's College London (online)
+        - Amitava Bose Memorial Annual Workshop 2025, IIM Calcutta
+        - 6th Meeting of the Society of Family and Gender Economics, Brasília, Brazil (accepted; could not attend)
     - year: 2023
       items:
-        - IASSH 18th - International Conference, Sarada University, Greater Noida 
-        - International Conference DG Vaishnav College, Chennai
+        - IASSH 18th International Conference, Sharda University, Greater Noida
+        - International Conference, DG Vaishnav College, Chennai
     - year: 2022
-      items: 
-        - CMASE 3.0 - University of Kerala
+      items:
+        - CMASE 3.0, University of Kerala
 
 - title: Skills and Expertise
   type: nested_list
