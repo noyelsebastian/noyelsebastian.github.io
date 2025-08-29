@@ -15,20 +15,19 @@
   contents:
     - title: PhD
       institution: CSWE (CITD), Jawaharlal Nehru University, New Delhi
-      year: "2023-02 – 2027-02"
-      description:
-        - Advisor: Dr. Rashmi Barua
-        - Areas of interest: Applied Microeconomics (Gender, Labour, Health)
+      year: "2023-02 - 2027-02"
+      description: Advisor :<a href= "https://sites.google.com/site/rbaruabhowmik/">Dr. Rashmi Barua</a>
+        - "Areas of interest :Applied Microeconomics (Gender, Labour, Health)"
     - title: Master of Arts in Economics
       institution: Department of Economics, University of Kerala, Thiruvananthapuram
-      year: "2019 – 2021"
+      year: "2019 - 2021"
       description:
-        - CGPA: 8.50 (Third Rank)
+        - "CGPA: 8.50 (Third Rank)"
     - title: Bachelor of Arts in Economics
       institution: Loyola College, Chennai, Tamil Nadu
-      year: "2016 – 2019"
+      year: "2016 - 2019"
       description:
-        - CGPA: 8.52
+        - "CGPA: 8.52"
 
 - title: Experience
   type: time_table
@@ -37,8 +36,8 @@
       institution: CSWE, Jawaharlal Nehru University, New Delhi
       year: "2024 – 2025"
       description:
-        - Microeconomics I with Prof. Sushama Murty, Graduate Level (Monsoon 2025, ongoing)
-        - Microeconomics I with Prof. Sushama Murty, Graduate Level (Monsoon 2024)
+        - Microeconomics I with <a href="https://www.jnu.ac.in/content/sushama">Prof. Sushama Murty</a>, Graduate Level (Monsoon 2025, ongoing)
+        - Microeconomics I with <a href="https://www.jnu.ac.in/content/sushama">Prof. Sushama Murty</a>, Graduate Level (Monsoon 2024)
     - title: Internship
       institution: Economic Research Wing, Rubber Research Institute of India, Ministry of Commerce and Industry, Government of India
       year: "2018-12"
@@ -94,11 +93,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://drive.google.com/file/d/1BMOptktD4c_nPMpwIl6r0U5qLB39pkl5/view">Designing and Running Randomized Evaluations (MITxT JPAL102x)</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - "Hobbies: Quizzing, Reading - Non-fictions, Cooking"
