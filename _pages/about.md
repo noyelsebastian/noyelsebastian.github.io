@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: Noyel_Tvm
+  image: Noyel_Tvm.jpg
   image_circular: false
   #more_info: >
   #  <p>Senior Research Fellow </p>
