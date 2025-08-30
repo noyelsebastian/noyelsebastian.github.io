@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of shareable resources and projects.
 nav: True
 nav_order: 3
-display_categories: [Teaching,Research]
+display_categories: [Teaching,Projects]
 horizontal: false
 ---
 
