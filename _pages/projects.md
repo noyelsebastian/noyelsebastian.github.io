@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of shareable resources and projects.
 nav: True
 nav_order: 3
 display_categories: [Teaching,Research]
