@@ -11,11 +11,13 @@ related_publications: false
 Here are the slides from a STATA tutorial session, conducted as part of a Research Methodology course organised by CSWE, JNU. The material is designed for complete beginners and will be updated over time.
 
 <!-- Download button -->
-<a href="assets\pdf\STATA_Tutorial.pdf" download class="btn btn-primary">
+<a href="/assets/pdf/STATA_Tutorial.pdf" download class="btn btn-primary">
   Download Slides
 </a>
 
+<!-- Text link -->
+[Download Slides](/assets/pdf/STATA_Tutorial.pdf)
+
 <!-- Embedded PDF viewer -->
-<embed src="assets\pdf\STATA_Tutorial.pdf" type="application/pdf" width="100%" height="600px" />
- 
-[Download Slides](assets\pdf\STATA_Tutorial.pdf) 
+<embed src="/assets/pdf/STATA_Tutorial.pdf" type="application/pdf" width="100%" height="600px" />
+
