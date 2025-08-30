@@ -15,9 +15,6 @@ Here are the slides from a STATA tutorial session, conducted as part of a Resear
   Download Slides
 </a>
 
-<!-- Text link -->
-[Download Slides](/assets/pdf/STATA_Tutorial.pdf)
-
 <!-- Embedded PDF viewer -->
 <embed src="/assets/pdf/STATA_Tutorial.pdf" type="application/pdf" width="100%" height="600px" />
 
