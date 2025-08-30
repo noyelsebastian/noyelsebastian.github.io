@@ -2,7 +2,7 @@
 layout: page
 title: STATA
 description: ""
-img: assets\img\STATA.png
+img: assets/img/STATA.png
 importance: 1
 category: Teaching
 related_publications: false
