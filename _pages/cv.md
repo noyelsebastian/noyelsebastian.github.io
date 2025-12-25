@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Curriculum Vitae <a href='/files/NOYEL_CV.pdf' download><i class='fas fa-file-pdf' style='color: #d9534f; font-size: 0.8em; margin-left: 10px;'></i></a>"
 permalink: /cv/
 author_profile: true
 redirect_from:
