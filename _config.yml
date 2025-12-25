@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "NOYEL SEBASTIAN"
 title_separator          : "-"
 name                     : &name "Noyel Sebastian"
