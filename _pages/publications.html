@@ -5,32 +5,43 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+## Working Papers
+<hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2 class="archive__item-title" style="margin-bottom: 0;">
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">Homes of Harm: Spousal Violence and Child Malnutrition in India</a>
+</h2>
+<p style="margin-top: 0; color: #52adc8; font-style: italic; font-size: 0.9em;">With Co-author Names</p>
 
+<div style="text-align: justify; line-height: 1.6;">
+  This study investigates the causal impact of intimate partner violence (IPV) experienced by mothers on the nutritional status of children under age five in India. IPV increases the probability of stunting by 34.5 percentage points and underweight by 26.9 percentage points.
+</div>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">Download Paper</a></p>
 
+<br>
 
+## Journal Publications
+<hr />
+
+<h2 class="archive__item-title" style="margin-bottom: 0;">
+  <a href="#">Persistent Effects of a Conditional Cash Transfer: A Case of Empowering Women through Kanyashree in India</a>
+</h2>
+<p style="margin-top: 0; color: #52adc8; font-style: italic; font-size: 0.9em;">With <a href="https://gitanjalisen.com" style="color: #52adc8; text-decoration: underline;">Gitanjali Sen</a></p>
+
+<p style="margin-bottom: 10px;">Published in <i>Journal of Population Economics</i>, September 2024</p>
+
+<div style="text-align: justify; line-height: 1.6;">
+  <strong>Abstract:</strong> Launched in 2013 in West Bengal, India, Kanyashree Prakalpa is a conditional cash transfer program incentivizing girls to stay in school and delay marriage. We find exposed women experience 7 to 8 percentage points higher likelihood of independent movement.
+</div>
+<p><a href="#">Link to paper</a></p>
+
+<br>
+
+## Book Chapters
+<hr />
