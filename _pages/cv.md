@@ -70,7 +70,6 @@ Ministry of Commerce and Industry, Government of India
 
 **2026**
 - 7th Annual Economics Conference, Ahmedabad University  
-  *(Scheduled: January 9–10)*  
 
 **2025**
 - Young Scholar’s Conference, Delhi School of Economics  
