@@ -8,87 +8,38 @@ author_profile: true
 {% include base_path %}
 
 <div class="post">
-  <header class="post-header">
-    <p class="post-description" style="font-style: italic; color: #666;">A collection of shareable resources and projects.</p>
-  </header>
+  <p style="font-style: italic; color: #666;">A collection of shareable resources and projects.</p>
 
-  <article>
-    <h2 style="font-weight: bold; margin-bottom: 5px;">Tutorials</h2>
-    <hr style="margin-top: 0; margin-bottom: 25px;" />
+  {% assign all_resources = site.pages | where_exp: "item", "item.path contains '_pages/resources/'" %}
+  {% assign categories = all_resources | map: 'category' | uniq | compact %}
 
-    <div class="projects-grid">
-      {% assign resources = site.pages | where: "category", "Tutorials" | sort: "importance" %}
-      {% for resource in resources %}
-        
-        <div class="grid-item">
-          <a href="{{ resource.url | relative_url }}">
-            <div class="card hoverable">
-              {% if resource.img %}
-                <img src="{{ resource.img | relative_url }}" alt="{{ resource.title }} logo" class="card-img-top">
-              {% else %}
-                <div class="card-img-placeholder">
-                  <i class="fas fa-file-alt fa-3x"></i>
+  {% for cat in categories %}
+    <article style="margin-top: 40px;">
+      <h2 style="font-weight: bold; margin-bottom: 5px;">{{ cat }}</h2>
+      <hr style="margin-top: 0; margin-bottom: 25px;" />
+
+      <div class="projects-grid">
+        {% assign category_pages = all_resources | where: "category", cat | sort: "importance" %}
+        {% for resource in category_pages %}
+          <div class="grid-item">
+            <a href="{{ resource.url | relative_url }}">
+              <div class="card hoverable">
+                <div class="card-img-container">
+                  {% if resource.img %}
+                    <img src="{{ resource.img | relative_url }}" class="card-img-top">
+                  {% else %}
+                    <i class="fas fa-file-alt fa-3x" style="color: #ccc;"></i>
+                  {% endif %}
                 </div>
-              {% endif %}
-              
-              <div class="card-body">
-                <h3 class="card-title">{{ resource.title }}</h3>
-                <p class="card-text">{{ resource.description }}</p>
+                <div class="card-body">
+                  <h3 class="card-title">{{ resource.title }}</h3>
+                  <p class="card-text">{{ resource.description }}</p>
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        
-      {% endfor %}
-    </div>
-  </article>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  {% endfor %}
 </div>
-
-<style>
-  /* Reduced card size and improved grid alignment */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); /* Reduced min-width from 300px */
-    gap: 1.5rem;
-    max-width: 900px; /* Prevents the grid from becoming too wide on large screens */
-  }
-
-  .card {
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 4px;
-    background-color: #fff;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .card.hoverable:hover {
-    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-  }
-
-  .card-img-top {
-    width: 100%;
-    height: 160px; /* Reduced height from 200px */
-    object-fit: contain;
-    padding: 1.5rem;
-    background-color: #fcfcfc;
-    border-bottom: 1px solid rgba(0,0,0,.08);
-  }
-
-  .card-title {
-    font-size: 1.2rem; /* Reduced font size to match h3 style */
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-
-  .card-text {
-    font-size: 0.9em;
-    color: #666;
-  }
-
-  .grid-item a { text-decoration: none !important; color: inherit !important; }
-</style>
