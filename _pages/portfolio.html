@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: archive
 title: Resources
 permalink: /portfolio/
+author_profile: true
 ---
+
+{% include base_path %}
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">A collection of shareable resources and projects.</p>
+    <p class="post-description" style="font-style: italic; color: #666;">A collection of shareable resources and projects.</p>
   </header>
 
   <article>
+    <h2 style="font-weight: bold; margin-bottom: 5px;">Tutorials</h2>
+    <hr style="margin-top: 0; margin-bottom: 25px;" />
+
     <div class="projects-grid">
       {% assign resources = site.pages | where: "category", "Tutorials" | sort: "importance" %}
       {% for resource in resources %}
@@ -18,7 +23,6 @@ permalink: /portfolio/
         <div class="grid-item">
           <a href="{{ resource.url | relative_url }}">
             <div class="card hoverable">
-              
               {% if resource.img %}
                 <img src="{{ resource.img | relative_url }}" alt="{{ resource.title }} logo" class="card-img-top">
               {% else %}
@@ -28,7 +32,7 @@ permalink: /portfolio/
               {% endif %}
               
               <div class="card-body">
-                <h2 class="card-title">{{ resource.title }}</h2>
+                <h3 class="card-title">{{ resource.title }}</h3>
                 <p class="card-text">{{ resource.description }}</p>
               </div>
             </div>
@@ -41,76 +45,50 @@ permalink: /portfolio/
 </div>
 
 <style>
-  /* Defines a 3-column grid that is responsive */
+  /* Reduced card size and improved grid alignment */
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); /* Reduced min-width from 300px */
     gap: 1.5rem;
-    padding: 1rem 0;
+    max-width: 900px; /* Prevents the grid from becoming too wide on large screens */
   }
 
-  /* Basic Card Styling */
   .card {
     border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0.25rem;
+    border-radius: 4px;
     background-color: #fff;
-    height: 100%; /* Ensures all cards in a row are same height */
+    height: 100%;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Keeps image inside rounded corners */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
   }
 
-  /* Hover Effect: Adds a shadow when the mouse is over the card */
   .card.hoverable:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    text-decoration: none; /* Removes underline from link on hover */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
   }
 
-  /* styling for the card link to remove default behavior */
-  .grid-item a {
-    text-decoration: none !important;
-    color: inherit !important;
-  }
-
-  /* Card Image Styling */
   .card-img-top {
     width: 100%;
-    height: 200px; /* fixed height for images for consistent grid */
-    object-fit: contain; /* ensures logo is not stretched or cut off */
-    padding: 1rem; /* adds space around the logo */
-    background-color: #f8f9fa; /* light grey background for image area */
-    border-bottom: 1px solid rgba(0,0,0,.125);
-  }
-
-  /* Placeholder for cards without an image */
-  .card-img-placeholder {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e9ecef;
-    color: #6c757d;
-    border-bottom: 1px solid rgba(0,0,0,.125);
-  }
-
-  /* Card Text Area Styling */
-  .card-body {
-    padding: 1.25rem;
-    flex-grow: 1; /* allows body to fill remaining space so button stays at bottom */
+    height: 160px; /* Reduced height from 200px */
+    object-fit: contain;
+    padding: 1.5rem;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid rgba(0,0,0,.08);
   }
 
   .card-title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 0.75rem;
+    font-size: 1.2rem; /* Reduced font size to match h3 style */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
     color: #333;
   }
 
   .card-text {
-    font-size: 1rem;
-    color: #6c757d;
-    margin-bottom: 0; /* removes bottom margin from last paragraph */
+    font-size: 0.9em;
+    color: #666;
   }
+
+  .grid-item a { text-decoration: none !important; color: inherit !important; }
 </style>
