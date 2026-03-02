@@ -10,7 +10,7 @@ author_profile: true
 <div class="post">
   <p style="font-style: italic; color: #666;">A collection of shareable resources and projects.</p>
 
-  {% assign all_resources = site.pages | where_exp: "item", "item.path contains '_pages/resources/'" %}
+  {% assign all_resources = site.pages | where_exp: "item", "item.path contains 'resources/'" %}
   {% assign categories = all_resources | map: 'category' | uniq | compact %}
 
   {% for cat in categories %}
