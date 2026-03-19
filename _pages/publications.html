@@ -4,48 +4,98 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-{% comment %}
+
 {% include base_path %}
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-{% endcomment %}
+<style>
+  /* Styling for the Expandable Paper Boxes */
+  .paper-box {
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  .paper-box summary {
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+    transition: background-color 0.2s ease;
+  }
+  .paper-box summary::-webkit-details-marker {
+    display: none;
+  }
+  /* Dark Blue Header when opened */
+  .paper-box[open] summary {
+    background-color: #001f3f; 
+    color: white;
+  }
+  /* Author Links - Slate Grey instead of Sky Blue */
+  .paper-authors a, .archive__item-authors a {
+    color: #5a5a5a; 
+    font-style: italic;
+    text-decoration: none;
+  }
+  .paper-authors a:hover, .archive__item-authors a:hover {
+    text-decoration: underline;
+  }
+  .paper-content {
+    padding: 20px;
+    border-top: 1px solid #e1e4e8;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 0.95em;
+  }
+  .paper-title {
+    font-weight: bold;
+    font-size: 1.05em;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .paper-links {
+    margin-top: 12px;
+    display: block;
+  }
+  .paper-links a {
+    margin-right: 12px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Working Papers</h2>
 <hr style="margin-top: 0; margin-bottom: 20px;" />
 
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">Homes of Harm: Spousal Violence and Child Malnutrition in India</a>
-</h3>
+<details class="paper-box">
+  <summary>
+    <span class="paper-title">Homes of Harm: Spousal Violence and Child Malnutrition in India</span>
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>)</span>
+  </summary>
+  <div class="paper-content">
+    This study investigates the causal impact of intimate partner violence (IPV) experienced by mothers on the nutritional status of children under age five in India. To address endogeneity, IPV is instrumented using the district-level presence of an All-Women Police Station.
+    <div class="paper-links">
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">[go to paper]</a>
+      <a href="{{ base_path }}/files/slides1.pdf">[slides]</a>
+    </div>
+  </div>
+</details>
 
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With <a href="https://sites.google.com/site/rbaruabhowmik/" style="color: #52adc8;">Rashmi Barua</a></span>
-  {% comment %} <span style="margin-left: 10px; font-weight: bold; color: #666;">— Under Review</span> {% endcomment %}
-</p>
+<details class="paper-box">
+  <summary>
+    <span class="paper-title">No Room of One’s Own: Inherited Norms and Women’s Lifetime Labor Market Non-Participation</span>
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>) — Draft in progress</span>
+  </summary>
+  <div class="paper-content">
+    Enter your abstract or project description for this paper here.
+    <div class="paper-links">
+      <a href="#">[draft request]</a>
+    </div>
+  </div>
+</details>
 
 <br>
-
-<h2 style="font-weight: bold; margin-bottom: 5px;">Work-in-Progress</h2>
-<hr style="margin-top: 0; margin-bottom: 20px;" />
-
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  No Room of One’s Own: Inherited Norms and Women’s Lifetime Labor Market Non-Participation
-</h3>
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With <a href="https://sites.google.com/site/rbaruabhowmik/" style="color: #52adc8;">Rashmi Barua</a></span>
-</p>
-
-<br>
-
-{% comment %}
-<h2 style="font-weight: bold; margin-bottom: 5px;">Journal Publications</h2>
-<hr style="margin-top: 0; margin-bottom: 20px;" />
-
-<h3 class="archive__item-title" style="margin-bottom: 0;">Paper Title</h3>
-<p>Details...</p>
-{% endcomment %}
-
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Book Chapters</h2>
 <hr style="margin-top: 0; margin-bottom: 20px;" />
@@ -53,28 +103,33 @@ author_profile: true
 <h3 class="archive__item-title" style="margin-bottom: 0;">
   Kerala’s Ageing Economy and Exploring the Role of Community-Based Care Work
 </h3>
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With Navia Sebastian</span>
-  <span style="margin-left: 10px; color: #666;">— Published in <i>Social and Solidarity Economy: A Sectoral Narrative</i> (ISBN 978-93-91798-51-2)</span>
+<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
+  With Navia Sebastian — Published in <i>Social and Solidarity Economy: A Sectoral Narrative</i> (ISBN 978-93-91798-51-2)
 </p>
+
+<br>
+
 <h3 class="archive__item-title" style="margin-bottom: 0;">
   Grapes of Wrath - The Indian Fiasco
 </h3>
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With Steny Raphael</span>
-  <span style="margin-left: 10px; color: #666;">— Published in <i>Socio-Legal Androcentrism and Gender Inequalities</i>, Centre For Women and Law, NLU Odisha (ISBN 9789389656343)</span>
+<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
+  With Steny Raphael — Published in <i>Socio-Legal Androcentrism and Gender Inequalities</i> (ISBN 9789389656343)
 </p>
+
+<br>
+
 <h3 class="archive__item-title" style="margin-bottom: 0;">
-  An analysis on the Socio-Economic status of Rubber Farmers in Kottayam district with special reference to the Farm Gate Price Earned
+  An analysis on the Socio-Economic status of Rubber Farmers in Kottayam district
 </h3>
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With Anandan S</span>
-  <span style="margin-left: 10px; color: #666;">— Published in <i>Oikonomikos</i> (ISSN 2277-6397)</span>
+<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
+  With Anandan S — Published in <i>Oikonomikos</i> (ISSN 2277-6397)
 </p>
+
+<br>
+
 <h3 class="archive__item-title" style="margin-bottom: 0;">
   ചില കോവിഡാനന്തര സാമ്പത്തിക ചിന്തകൾ
 </h3>
-<p style="margin-top: 0; font-size: 0.9em;">
-  <span style="color: #52adc8; font-style: italic;">With Niranjana CP</span>
-  <span style="margin-left: 10px; color: #666;">— Published in <i>കോവിഡാനന്തര കേരളം: ഒരു പുതിയ വികസന പരിപ്രേക്ഷ്യം</i> (ISBN 9788195270415)</span>
+<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
+  With Niranjana CP — Published in <i>കോവിഡാനന്തര കേരളം: ഒരു പുതിയ വികസന പരിപ്രേക്ഷ്യം</i> (ISBN 9788195270415)
 </p>
