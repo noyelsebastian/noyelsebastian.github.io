@@ -12,12 +12,12 @@ author_profile: true
   .paper-box {
     border: 1px solid #e1e4e8;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 8px; /* Reduced space between boxes */
     overflow: hidden;
     background-color: #ffffff;
   }
   .paper-box summary {
-    padding: 12px 15px;
+    padding: 10px 15px; /* Tighter padding */
     background-color: #f8f9fa;
     cursor: pointer;
     list-style: none;
@@ -32,7 +32,7 @@ author_profile: true
     background-color: #001f3f; 
     color: white;
   }
-  /* Author Links - Slate Grey instead of Sky Blue */
+  /* Author Links - Slate Grey */
   .paper-authors a, .archive__item-authors a {
     color: #5a5a5a; 
     font-style: italic;
@@ -42,20 +42,20 @@ author_profile: true
     text-decoration: underline;
   }
   .paper-content {
-    padding: 20px;
+    padding: 15px 20px;
     border-top: 1px solid #e1e4e8;
     line-height: 1.6;
     text-align: justify;
-    font-size: 0.95em;
+    font-size: 0.9em; /* Slightly smaller content text */
   }
   .paper-title {
     font-weight: bold;
-    font-size: 1.05em;
+    font-size: 0.95em; /* Reduced title size */
     display: block;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
   .paper-links {
-    margin-top: 12px;
+    margin-top: 10px;
     display: block;
   }
   .paper-links a {
@@ -66,7 +66,7 @@ author_profile: true
 </style>
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Working Papers</h2>
-<hr style="margin-top: 0; margin-bottom: 20px;" />
+<hr style="margin-top: 0; margin-bottom: 15px;" />
 
 <details class="paper-box">
   <summary>
@@ -74,10 +74,10 @@ author_profile: true
     <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>)</span>
   </summary>
   <div class="paper-content">
-    This study investigates the causal impact of intimate partner violence (IPV) experienced by mothers on the nutritional status of children under age five in India. To address endogeneity, IPV is instrumented using the district-level presence of an All-Women Police Station.
+    This study investigates the causal impact of intimate partner violence (IPV) experienced by mothers on the nutritional status of children under age five in India. To address endogeneity, IPV is instrumented using the district-level presence of an All-Women Police Station. Using repeated cross-sections from the National Family Health Survey, we estimate substantial effects of maternal IPV on child nutritional outcomes. IPV increases the probability of stunting by 34.5 percentage points and underweight by 26.9 percentage points. 
     <div class="paper-links">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">[go to paper]</a>
-      <a href="{{ base_path }}/files/slides1.pdf">[slides]</a>
+      {% comment %}<a href="{{ base_path }}/files/slides1.pdf">[slides]</a>{% endcomment %}
     </div>
   </div>
 </details>
@@ -88,7 +88,7 @@ author_profile: true
     <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>) — Draft in progress</span>
   </summary>
   <div class="paper-content">
-    Enter your abstract or project description for this paper here.
+    Female labor force participation in India remains low despite sustained economic growth, with a large literature pointing to restrictive social norms as an important constraint. We study the role of inherited gender norms in shaping women’s lifetime labor market participation and the consequences associated with these roles later in life. We show that women from groups with historically greater female participation in production are less likely to remain outside the labor force over their lifetime. 
     <div class="paper-links">
       <a href="#">[draft request]</a>
     </div>
@@ -98,38 +98,32 @@ author_profile: true
 <br>
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Book Chapters</h2>
-<hr style="margin-top: 0; margin-bottom: 20px;" />
+<hr style="margin-top: 0; margin-bottom: 15px;" />
 
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  Kerala’s Ageing Economy and Exploring the Role of Community-Based Care Work
-</h3>
-<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
-  With Navia Sebastian — Published in <i>Social and Solidarity Economy: A Sectoral Narrative</i> (ISBN 978-93-91798-51-2)
-</p>
+<div style="margin-bottom: 15px;">
+  <h3 style="font-size: 0.95em; font-weight: bold; margin-bottom: 0;">Kerala’s Ageing Economy and Exploring the Role of Community-Based Care Work</h3>
+  <p class="archive__item-authors" style="margin-top: 0; font-size: 0.85em;">
+    With Navia Sebastian — Published in <i>Social and Solidarity Economy: A Sectoral Narrative</i> (ISBN 978-93-91798-51-2)
+  </p>
+</div>
 
-<br>
+<div style="margin-bottom: 15px;">
+  <h3 style="font-size: 0.95em; font-weight: bold; margin-bottom: 0;">Grapes of Wrath - The Indian Fiasco</h3>
+  <p class="archive__item-authors" style="margin-top: 0; font-size: 0.85em;">
+    With Steny Raphael — Published in <i>Socio-Legal Androcentrism and Gender Inequalities</i> (ISBN 9789389656343)
+  </p>
+</div>
 
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  Grapes of Wrath - The Indian Fiasco
-</h3>
-<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
-  With Steny Raphael — Published in <i>Socio-Legal Androcentrism and Gender Inequalities</i> (ISBN 9789389656343)
-</p>
+<div style="margin-bottom: 15px;">
+  <h3 style="font-size: 0.95em; font-weight: bold; margin-bottom: 0;">An analysis on the Socio-Economic status of Rubber Farmers in Kottayam district</h3>
+  <p class="archive__item-authors" style="margin-top: 0; font-size: 0.85em;">
+    With Anandan S — Published in <i>Oikonomikos</i> (ISSN 2277-6397)
+  </p>
+</div>
 
-<br>
-
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  An analysis on the Socio-Economic status of Rubber Farmers in Kottayam district
-</h3>
-<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
-  With Anandan S — Published in <i>Oikonomikos</i> (ISSN 2277-6397)
-</p>
-
-<br>
-
-<h3 class="archive__item-title" style="margin-bottom: 0;">
-  ചില കോവിഡാനന്തര സാമ്പത്തിക ചിന്തകൾ
-</h3>
-<p class="archive__item-authors" style="margin-top: 0; font-size: 0.9em;">
-  With Niranjana CP — Published in <i>കോവിഡാനന്തര കേരളം: ഒരു പുതിയ വികസന പരിപ്രേക്ഷ്യം</i> (ISBN 9788195270415)
-</p>
+<div style="margin-bottom: 15px;">
+  <h3 style="font-size: 0.95em; font-weight: bold; margin-bottom: 0;">ചില കോവിഡാനന്തര സാമ്പത്തിക ചിന്തകൾ</h3>
+  <p class="archive__item-authors" style="margin-top: 0; font-size: 0.85em;">
+    With Niranjana CP — Published in <i>കോവിഡാനന്തര കേരളം: ഒരു പുതിയ വികസന പരിപ്രേക്ഷ്യം</i> (ISBN 9788195270415)
+  </p>
+</div>
