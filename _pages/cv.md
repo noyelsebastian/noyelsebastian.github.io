@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
     [13.0064, 80.2548, "<b>MIDS, Chennai</b><br>&bull; 3rd MIDS Doctoral Colloquium (Oct 2025)"],
     [28.5398, 77.5390, "<b>Sharda University, Greater Noida</b><br>&bull; IASSH 18th International Conference (2023)"],
     [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
-    [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th AHE Conference (June 2025, Online)"],
+    [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th YSI-AHE Conference (June 2025, Online)"],
     [8.5074, 76.9511, "<b>University of Kerala</b><br>&bull; CMASE 3.0 (2022)"],
     [28.5397, 77.1661, "<b>Jawaharlal Nehru University (JNU)</b><br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, CESP (Oct 2025)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
