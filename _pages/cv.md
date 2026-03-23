@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
     [34.0837, 74.7973, "<b>University of Kashmir</b><br>&bull; Annual CECFEE Research & Policy Workshop (Nov 2025)"],
     [13.0064, 80.2548, "<b>MIDS, Chennai</b><br>&bull; 3rd MIDS Doctoral Colloquium (Oct 2025)"],
     [28.5398, 77.5390, "<b>Sharda University, Greater Noida</b><br>&bull; IASSH 18th International Conference (2023)"],
-    [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025)"],
+    [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
     [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th AHE Conference (June 2025, Online)"],
     [8.5074, 76.9511, "<b>University of Kerala</b><br>&bull; CMASE 3.0 (2022)"],
     [28.5397, 77.1661, "<b>Jawaharlal Nehru University (JNU)</b><br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, CESP (Oct 2025)"],
@@ -144,30 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {% endraw %}
-
-
-**2026**
-- 7th Annual Economics Conference, Ahmedabad University  
-
-**2025**
-- Young Scholar’s Conference, Delhi School of Economics  
-- Research Scholar’s Day, IIT Kanpur  
-- Doctoral Colloquium, CDS Thiruvananthapuram  
-- LEO Economics Conference, Plaksha University, Chandigarh  
-- 27th AHE Conference — YSI Editorial Session, King’s College London *(online)*  
-- Amitava Bose Memorial Annual Workshop, IIM Calcutta  
-- 6th Meeting of the Society of Family and Gender Economics, Brasília, Brazil *(accepted; could not attend)*  
-- 3rd MIDS Doctoral Colloquium, Adyar, Chennai  
-- Sukhamoy Chakravarty Chair – Young Scholars Conference, CESP, JNU  
-- Annual CECFEE Research & Policy Workshop, University of Kashmir  
-
-**2023**
-- IASSH 18th International Conference, Sharda University, Greater Noida  
-- International Conference, DG Vaishnav College, Chennai  
-
-**2022**
-- CMASE 3.0, University of Kerala  
-
 ---
 
 ## Skills and Expertise
