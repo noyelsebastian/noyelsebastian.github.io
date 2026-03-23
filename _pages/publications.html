@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "RESEARCH"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
@@ -79,6 +79,7 @@ author_profile: true
   <button onclick="zoomTo([20, 0], 2)" class="btn btn--info" style="padding: 5px 10px; font-size: 0.8em; cursor: pointer;">Focus: World</button>
 </div>
 
+{% raw %}
 <script>
   // Initialize the map centered on India
   var map = L.map('conference-map').setView([22.9734, 78.6569], 4);
@@ -117,7 +118,7 @@ author_profile: true
       .bindPopup(conf[2]);
   });
 </script>
-
+{% endraw %}
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Working Papers</h2>
 <hr style="margin-top: 0; margin-bottom: 15px;" />
