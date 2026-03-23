@@ -43,7 +43,7 @@ redirect_from:
 
 **Ph.D. in Economics**  
 CSWE (CITD), Jawaharlal Nehru University, New Delhi  
-*February 2023 – February 2027 (expected)*  
+*February 2023 – December 2026 (expected)*  
 - Advisor: <a href="https://sites.google.com/site/rbaruabhowmik/">Dr. Rashmi Barua</a>  
 - Research Areas: Development Economics - Labor, Health and Gender
 
@@ -113,14 +113,13 @@ document.addEventListener("DOMContentLoaded", function () {
   var conferences = [
     [26.5123, 80.2329, "<b>IIT Kanpur</b><br>&bull; Research Scholar's Day (Mar 2025)"],
     [23.0225, 72.5714, "<b>Ahmedabad University</b><br>&bull; 7th Annual Economics Conference (Jan 2026)"],
-    [28.5843, 77.2500, "<b>Delhi School of Economics</b><br>&bull; Young Scholar’s Conference (Feb 2025)"],
+    [28.5843, 77.2500, "<b>Delhi</b><br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)"],
     [8.5241, 76.9366, "<b>Thiruvananthapuram</b><br>&bull; CDS Doctoral Colloquium (Mar 2025)<br>&bull; CMASE 3.0, University of Kerala (2022)"],
     [30.6425, 76.7179, "<b>Plaksha University, Chandigarh</b><br>&bull; LEO Economics Conference (Apr 2025)"],
     [34.0837, 74.7973, "<b>University of Kashmir</b><br>&bull; Annual CECFEE Research & Policy Workshop (Nov 2025)"],
     [28.5398, 77.5390, "<b>Sharda University, Greater Noida</b><br>&bull; IASSH 18th International Conference (2023)"],
     [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
     [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th YSI-AHE Conference (June 2025, Online)"],
-    [28.5397, 77.1661, "<b>Jawaharlal Nehru University (JNU)</b><br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, CESP (Oct 2025)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
     [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
   ];
