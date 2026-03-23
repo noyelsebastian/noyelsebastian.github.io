@@ -1,11 +1,14 @@
 ---
 layout: archive
-title: "Publications"
+title: "RESEARCH"
 permalink: /publications/
 author_profile: true
 ---
 
 {% include base_path %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
   /* Styling for the Expandable Paper Boxes */
@@ -64,6 +67,57 @@ author_profile: true
     text-decoration: none;
   }
 </style>
+
+
+<h2 style="font-weight: bold; margin-bottom: 5px;">Conferences</h2>
+<hr style="margin-top: 0; margin-bottom: 20px;" />
+
+<div id="conference-map" style="height: 450px; width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;"></div>
+
+<div style="margin-bottom: 30px;">
+  <button onclick="zoomTo([22.9734, 78.6569], 4)" class="btn btn--info" style="padding: 5px 10px; font-size: 0.8em; cursor: pointer;">Focus: India</button>
+  <button onclick="zoomTo([20, 0], 2)" class="btn btn--info" style="padding: 5px 10px; font-size: 0.8em; cursor: pointer;">Focus: World</button>
+</div>
+
+<script>
+  // Initialize the map centered on India
+  var map = L.map('conference-map').setView([22.9734, 78.6569], 4);
+
+  // Use a professional, clean tile layer
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }).addTo(map);
+
+  // Conference Data [Latitude, Longitude, Popup HTML Content]
+  // Note: For locations with multiple events (like JNU), list them all in one string.
+  var conferences = [
+    [26.5123, 80.2329, "<b>IIT Kanpur</b><br>• Research Scholar's Day (Mar 2025)"],
+    [23.0225, 72.5714, "<b>Ahmedabad University</b><br>• 7th Annual Economics Conference (Jan 2026)"],
+    [28.5843, 77.2500, "<b>Delhi School of Economics</b><br>• Young Scholar’s Conference (Feb 2025)"],
+    [8.5241, 76.9366, "<b>CDS Thiruvananthapuram</b><br>• Doctoral Colloquium (Mar 2025)"],
+    [30.6425, 76.7179, "<b>Plaksha University, Chandigarh</b><br>• LEO Economics Conference (Apr 2025)"],
+    [34.0837, 74.7973, "<b>University of Kashmir</b><br>• Annual CECFEE Research & Policy Workshop (Nov 2025)"],
+    [13.0064, 80.2548, "<b>MIDS, Chennai</b><br>• 3rd MIDS Doctoral Colloquium (Oct 2025)"],
+    [28.5398, 77.5390, "<b>Sharda University, Greater Noida</b><br>• IASSH 18th International Conference (2023)"],
+    [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>• 6th Meeting of the Society of Family and Gender Economics (2025)"],
+    [51.5115, -0.1160, "<b>King's College London</b><br>• 27th AHE Conference (June 2025, Online)"],
+    [8.5074, 76.9511, "<b>University of Kerala</b><br>• CMASE 3.0 (2022)"],
+    // Example of JNU with multiple entries in one popup
+    [28.5397, 77.1661, "<b>Jawaharlal Nehru University (JNU)</b><br>• Sukhamoy Chakravarty Chair - Young Scholars Conference, CESP (Oct 2025)<br>• STATA for Beginners Workshop (Feb 2025)"]
+  ];
+
+  // Function to handle the zoom buttons
+  function zoomTo(coords, zoomLevel) {
+    map.flyTo(coords, zoomLevel, { duration: 1.5 });
+  }
+
+  // Loop through data and add markers
+  conferences.forEach(function(conf) {
+    L.marker([conf[0], conf[1]]).addTo(map)
+      .bindPopup(conf[2]);
+  });
+</script>
+
 
 <h2 style="font-weight: bold; margin-bottom: 5px;">Working Papers</h2>
 <hr style="margin-top: 0; margin-bottom: 15px;" />
