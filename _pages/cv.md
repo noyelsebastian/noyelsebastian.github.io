@@ -24,7 +24,7 @@ redirect_from:
   margin-right: 6px;
 }
 .map-button:hover {
-  background-color: #003366;
+  background-color: #001f3f;
 }
 </style>
 
