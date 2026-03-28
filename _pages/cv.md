@@ -108,7 +108,7 @@ redirect_from:
   <div class="entry-left">
     <div class="title">Ph.D. in Economics</div>
     <div class="subtitle"><strong>CSWE (CITD), Jawaharlal Nehru University, New Delhi</strong></div>
-    <div class="details">Advisor: Dr. Rashmi Barua</div>
+    <div class="details">Advisor: <a href="https://sites.google.com/site/rbaruabhowmik/">Dr. Rashmi Barua</a> </div>
     <div class="details">Fields: Development Economics (Labor, Health, Gender)</div>
   </div>
   <div class="entry-right">Feb 2023 – Dec 2026 (expected)</div>
@@ -143,8 +143,8 @@ redirect_from:
   <div class="entry-left">
     <div class="title">Teaching Assistant</div>
     <div class="subtitle">CSWE, Jawaharlal Nehru University, New Delhi</div>
-    <div class="details">Microeconomics I (Graduate Level), Monsoon 2025 (with Prof. Sushama Murty)</div>
-    <div class="details">Microeconomics I (Graduate Level), Monsoon 2024 (with Prof. Sushama Murty)</div>
+    <div class="details">Microeconomics I (Graduate Level), Monsoon 2025 (with <a href="https://www.jnu.ac.in/content/sushama">Prof. Sushama Murty</a>)</div>
+    <div class="details">Microeconomics I (Graduate Level), Monsoon 2024 (with <a href="https://www.jnu.ac.in/content/sushama">Prof. Sushama Murty</a>)</div>
   </div>
   <div class="entry-right">2024 – 2025</div>
 </div>
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
     attribution: '&copy; OpenStreetMap &copy; CARTO'
   }).addTo(map);
 
-var conferences = [
+  var conferences = [
     [26.5123, 80.2329, "<b>IIT Kanpur</b><br>&bull; Research Scholar's Day (Mar 2025)"],
     [23.0225, 72.5714, "<b>Ahmedabad University</b><br>&bull; 7th Annual Economics Conference (Jan 2026)"],
     [28.5843, 77.2500, "<b>Delhi</b><br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)"],
@@ -209,29 +209,33 @@ var conferences = [
     [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
     [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th YSI-AHE Conference (June 2025, Online)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
-    [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
+    [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"]
   ];
 
   conferences.forEach(function(conf) {
-  var marker = L.marker([conf[0], conf[1]]).addTo(map)
-    .bindPopup(conf[2]);
+    var marker = L.marker([conf[0], conf[1]]).addTo(map)
+      .bindPopup(conf[2]);
 
-  // Open on hover
-  marker.on('mouseover', function () {
-    this.openPopup();
-  });
+    // Hover interaction
+    marker.on('mouseover', function () {
+      this.openPopup();
+    });
 
-  // Close when mouse leaves
-  marker.on('mouseout', function () {
-    this.closePopup();
+    marker.on('mouseout', function () {
+      this.closePopup();
+    });
   });
-});;
 
   function zoomTo(coords, zoomLevel) {
     map.flyTo(coords, zoomLevel, { duration: 1.5 });
   }
 
   window.zoomTo = zoomTo;
+
+  // Fix rendering issues in Jekyll layouts
+  setTimeout(function () {
+    map.invalidateSize();
+  }, 200);
 
 });
 </script>
