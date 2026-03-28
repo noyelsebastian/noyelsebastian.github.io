@@ -209,21 +209,11 @@ document.addEventListener("DOMContentLoaded", function () {
     [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
     [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th YSI-AHE Conference (June 2025, Online)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
-    [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"]
+    [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
   ];
 
   conferences.forEach(function(conf) {
-    var marker = L.marker([conf[0], conf[1]]).addTo(map)
-      .bindPopup(conf[2]);
-
-    // Hover interaction
-    marker.on('mouseover', function () {
-      this.openPopup();
-    });
-
-    marker.on('mouseout', function () {
-      this.closePopup();
-    });
+    L.marker([conf[0], conf[1]]).addTo(map).bindPopup(conf[2]);
   });
 
   function zoomTo(coords, zoomLevel) {
@@ -232,7 +222,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.zoomTo = zoomTo;
 
-  // Fix rendering issues in Jekyll layouts
   setTimeout(function () {
     map.invalidateSize();
   }, 200);
@@ -240,6 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {% endraw %}
+
 
 ---
 
