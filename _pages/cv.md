@@ -152,7 +152,7 @@ redirect_from:
 <div class="entry">
   <div class="entry-left">
     <div class="title">Intern</div>
-    <div class="subtitle">Rubber Research Institute of India, Ministry of Commerce</div>
+    <div class="subtitle">Rubber Research Institute of India, and Industry, Government of India</div>
   </div>
   <div class="entry-right">2018</div>
 </div>
@@ -165,9 +165,9 @@ redirect_from:
 <div class="section-title">Honors and Awards</div>
 
 <ul class="compact-list">
-  <li><strong>2025</strong> — Best Paper Award, MIDS Doctoral Colloquium</li>
-  <li><strong>2023</strong> — Best Youth Paper Award, IASSH Conference</li>
-  <li><strong>2023</strong> — Best Presentation Award, DG Vaishnav College</li>
+  <li><strong>2025</strong> — Best Paper Award, 3rd MIDS Doctoral Colloquium</li>
+  <li><strong>2023</strong> — Best Youth Paper Award, IASSH International Conference</li>
+  <li><strong>2023</strong> — Best Presentation Award,International Conference, DG Vaishnav College</li>
   <li><strong>2022</strong> — UGC Junior Research Fellowship (JRF)</li>
   <li><strong>2017</strong> — Loyola Research Park Fellowship</li>
 </ul>
