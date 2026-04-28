@@ -152,7 +152,7 @@ redirect_from:
 <div class="entry">
   <div class="entry-left">
     <div class="title">Intern</div>
-    <div class="subtitle">Rubber Research Institute of India, and Industry, Government of India</div>
+    <div class="subtitle">Economic Research Wing, Rubber Research Institute of India, Government of India</div>
   </div>
   <div class="entry-right">2018</div>
 </div>
@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var conferences = [
     [26.5123, 80.2329, "<b>IIT Kanpur</b><br>&bull; Research Scholar's Day (Mar 2025)"],
     [23.0225, 72.5714, "<b>Ahmedabad University</b><br>&bull; 7th Annual Economics Conference (Jan 2026)"],
-    [28.5843, 77.2500, "<b>Delhi</b><br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)"],
+    [28.5843, 77.2500, "<b>Delhi</b><br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)<br>&bull; CDE–IEDS International Conference, Delhi School of Economics (June 2026,scheduled), "],
     [8.5241, 76.9366, "<b>Thiruvananthapuram</b><br>&bull; CDS Doctoral Colloquium (Mar 2025)<br>&bull; CMASE 3.0, University of Kerala (2022)"],
     [30.6425, 76.7179, "<b>Plaksha University, Chandigarh</b><br>&bull; LEO Economics Conference (Apr 2025)"],
     [34.0837, 74.7973, "<b>University of Kashmir</b><br>&bull; Annual CECFEE Research & Policy Workshop (Nov 2025)"],
