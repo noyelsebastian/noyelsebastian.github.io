@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="section-title">Skills</div>
 
 <ul class="compact-list">
-  <li><strong>Software:</strong> STATA, Python, LaTeX, QGIS</li>
+  <li><strong>Software:</strong> STATA, Python, R, LaTeX, QGIS, MySQL</li>
   <li><strong>Languages:</strong> English, Malayalam, Tamil, Hindi, French (Elementary)</li>
 </ul>
 
