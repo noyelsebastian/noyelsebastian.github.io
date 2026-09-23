@@ -194,9 +194,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var map = L.map('conference-map').setView([22.9734, 78.6569], 4);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap &copy; CARTO'
-  }).addTo(map);
+ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_3vgq_1_c8ffe2bc24be249454d6443c', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+}).addTo(map);
 
   var conferences = [
     [26.5123, 80.2329, "<b>IIT Kanpur</b><br>&bull; Research Scholar's Day (Mar 2025)"],
