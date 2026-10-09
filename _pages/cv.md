@@ -167,7 +167,7 @@ redirect_from:
 <ul class="compact-list">
   <li><strong>2025</strong> — Best Paper Award, 3rd MIDS Doctoral Colloquium</li>
   <li><strong>2023</strong> — Best Youth Paper Award, IASSH International Conference</li>
-  <li><strong>2023</strong> — Best Presentation Award,International Conference, DG Vaishnav College</li>
+  <li><strong>2023</strong> — Best Presentation Award, International Conference, DG Vaishnav College</li>
   <li><strong>2022</strong> — UGC Junior Research Fellowship (JRF)</li>
   <li><strong>2017</strong> — Loyola Research Park Fellowship</li>
 </ul>
