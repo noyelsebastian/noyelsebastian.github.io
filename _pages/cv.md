@@ -69,8 +69,8 @@ redirect_from:
 
 /* ===== MAP BUTTON ===== */
 .map-button {
-  background-color: #001f3f;
-  color: white;
+  background-color: var(--palette-box-open-bg, #234634);
+  color: var(--palette-box-open-text, #ffffff);
   border: none;
   border-radius: 4px;
   padding: 6px 12px;
@@ -80,7 +80,7 @@ redirect_from:
 }
 
 .map-button:hover {
-  background-color: #001f3f;
+  background-color: var(--palette-box-open-bg, #234634);
 }
 
 /* ===== LIST COMPACT ===== */
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
     [40.2033, -8.4103, "<b>Coimbra, Portugal</b><br>&bull; Annual Heterodox Economics Conference, University of Coimbra (2026, accepted; could not attend)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
     [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
-    [-37.9105, 145.1340, "<b>Monash Business School, Melbourne</b><br>&bull; AYEW Applied Economist Job Market Webinar (Oct 2026, Online) (upcoming)"],
+    [-37.9105, 145.1340, "<b>Monash Business School, Melbourne</b><br>&bull; AYEW Applied Economist Job Market Webinar, Monash Business School (Oct 2026, Online) (upcoming)"],
   ];
 
   conferences.forEach(function(conf) {
