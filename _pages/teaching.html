@@ -2,11 +2,106 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
+redirect_from:
+  - /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .teaching-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .teaching-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.1rem 1.25rem;
+    background-color: var(--palette-card-bg, #ffffff);
+    border: 1px solid var(--palette-card-border, #e1e4e8);
+    border-radius: 4px;
+    color: inherit;
+    text-decoration: none !important;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+  .teaching-card:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+  .teaching-card__title {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.05em;
+    font-weight: bold;
+    color: var(--palette-card-title, var(--global-link-color));
+  }
+  .teaching-card__text {
+    margin: 0;
+    font-size: 0.85em;
+    line-height: 1.5;
+    color: var(--global-text-color);
+  }
+  .teaching-card__meta {
+    margin-top: auto;
+    padding-top: 0.8rem;
+    font-size: 0.75em;
+    color: var(--global-text-color-light);
+  }
+  .teaching-placeholder {
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--palette-accent, var(--global-link-color));
+    background-color: var(--palette-card-bg, #ffffff);
+    line-height: 1.6;
+  }
+  .teaching-placeholder__note {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--global-text-color-light);
+  }
+</style>
+
+<h2 style="font-weight: bold; margin-bottom: 5px;">Teaching Experience</h2>
+<hr style="margin-top: 0; margin-bottom: 15px;" />
+
+<p style="margin-bottom: 0.3em;"><strong>Teaching Assistant, Microeconomics I (graduate level)</strong></p>
+<p style="margin-top: 0;">
+  CSWE, Jawaharlal Nehru University &mdash; Monsoon 2024 and Monsoon 2025<br>
+  with <a href="https://www.jnu.ac.in/content/sushama">Prof. Sushama Murty</a>
+</p>
+
+<div class="teaching-placeholder">
+  <span class="teaching-placeholder__note">Placeholder &mdash; rewrite in your own words</span>
+  [Placeholder] I think of teaching as helping students get comfortable with the questions before they get comfortable with the answers. In tutorials I try to slow down, work through the reasoning step by step, and leave room for students to say what is confusing. I'll replace this paragraph with a few honest sentences about how I approach it.
+</div>
+
+<br>
+
+<h2 style="font-weight: bold; margin-bottom: 5px;">Teaching Resources</h2>
+<hr style="margin-top: 0; margin-bottom: 15px;" />
+
+<div class="teaching-card-grid">
+  <a class="teaching-card" href="{{ base_path }}/resources/microeconomics/">
+    <h3 class="teaching-card__title">Microeconomics Tutorial Series</h3>
+    <p class="teaching-card__text">Three sets of slides for the graduate Microeconomics I course: basic topology, preference relations, and convexity with Marshallian demand.</p>
+    <span class="teaching-card__meta">Slides &middot; 3 parts</span>
+  </a>
+
+  <a class="teaching-card" href="{{ base_path }}/resources/stata/">
+    <h3 class="teaching-card__title">STATA for Beginners</h3>
+    <p class="teaching-card__text">Slides from a beginner-level Stata session in a week-long Research Methodology workshop organized by the Centre for International Trade and Development.</p>
+    <span class="teaching-card__meta">Slides &middot; Workshop session</span>
+  </a>
+
+  <a class="teaching-card" href="{{ base_path }}/resources/gender-identity/">
+    <h3 class="teaching-card__title">Gender Identity and Discrimination</h3>
+    <p class="teaching-card__text">A two-part lecture on gender differences in the labor market, covering theoretical and empirical frameworks for understanding disparities.</p>
+    <span class="teaching-card__meta">Lecture slides &middot; Labor Economics elective</span>
+  </a>
+</div>
