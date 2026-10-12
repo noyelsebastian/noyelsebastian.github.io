@@ -1,0 +1,58 @@
+/* ==========================================================================
+   NAVY THEME - LIGHT VERSION
+   Select with `site_theme: "navy"` in _config.yml
+   ========================================================================== */
+
+/* Basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Color codes used for the site */
+$danger-color               : #e74c3c;
+$info-color                 : #1d4e89;
+$notice-color               : #96590f;
+$success-color              : #2ecc71;
+$warning-color              : #f39c12;
+
+:root {
+  --global-base-color                 : #1d4e89;
+  --global-bg-color                   : #f5f7fa;
+  --global-footer-bg-color            : #0b2545;
+  --global-border-color               : #d5dce6;
+  --global-dark-border-color          : #aab6c6;
+  --global-code-background-color      : #ffffff;
+  --global-code-text-color            : #1f2a37;
+  --global-fig-caption-color          : #4b5a6b;
+  --global-link-color                 : #1d4e89;
+  --global-link-color-hover           : #12345c;
+  --global-link-color-visited         : #5a3e8a;
+  --global-masthead-link-color        : #1f2a37;
+  --global-masthead-link-color-hover  : #1d4e89;
+  --global-text-color                 : #1f2a37;
+  --global-text-color-light           : #4b5a6b;
+  --global-thead-color                : #e6ecf4;
+
+  /* Custom palette variables (Research page, Teaching cards, sidebar) */
+  --palette-accent                    : #96590f;
+  --palette-sidebar                   : #0b2545;
+  --palette-box-bg                    : #ffffff;
+  --palette-box-border                : #d5dce6;
+  --palette-box-summary-bg            : #eef2f7;
+  --palette-box-open-bg               : #0b2545;
+  --palette-box-open-text             : #ffffff;
+  --palette-status                    : #8a4f0e;
+  --palette-card-bg                   : #ffffff;
+  --palette-card-border               : #d5dce6;
+  --palette-card-title                : #1d4e89;
+}
+
+footer,
+.page__footer {
+  color: #e8edf3 !important;
+}

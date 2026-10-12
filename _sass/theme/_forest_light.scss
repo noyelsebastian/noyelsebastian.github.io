@@ -1,0 +1,58 @@
+/* ==========================================================================
+   FOREST THEME - LIGHT VERSION
+   Select with `site_theme: "forest"` in _config.yml
+   ========================================================================== */
+
+/* Basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Color codes used for the site */
+$danger-color               : #e74c3c;
+$info-color                 : #2f6b4f;
+$notice-color               : #8a6d1a;
+$success-color              : #2ecc71;
+$warning-color              : #f39c12;
+
+:root {
+  --global-base-color                 : #2f6b4f;
+  --global-bg-color                   : #f4f7f3;
+  --global-footer-bg-color            : #234634;
+  --global-border-color               : #d3ddd3;
+  --global-dark-border-color          : #a9baad;
+  --global-code-background-color      : #ffffff;
+  --global-code-text-color            : #26332b;
+  --global-fig-caption-color          : #4d5f53;
+  --global-link-color                 : #2f6b4f;
+  --global-link-color-hover           : #1f4a37;
+  --global-link-color-visited         : #6a4f8a;
+  --global-masthead-link-color        : #26332b;
+  --global-masthead-link-color-hover  : #2f6b4f;
+  --global-text-color                 : #26332b;
+  --global-text-color-light           : #4d5f53;
+  --global-thead-color                : #e4ece2;
+
+  /* Custom palette variables (Research page, Teaching cards, sidebar) */
+  --palette-accent                    : #8a6d1a;
+  --palette-sidebar                   : #234634;
+  --palette-box-bg                    : #ffffff;
+  --palette-box-border                : #d3ddd3;
+  --palette-box-summary-bg            : #eaf0e8;
+  --palette-box-open-bg               : #234634;
+  --palette-box-open-text             : #ffffff;
+  --palette-status                    : #6b5416;
+  --palette-card-bg                   : #ffffff;
+  --palette-card-border               : #d3ddd3;
+  --palette-card-title                : #2f6b4f;
+}
+
+footer,
+.page__footer {
+  color: #eaf2ec !important;
+}

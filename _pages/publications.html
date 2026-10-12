@@ -10,15 +10,15 @@ author_profile: true
 <style>
   /* Styling for the Expandable Paper Boxes */
   .paper-box {
-    border: 1px solid #e1e4e8;
+    border: 1px solid var(--palette-box-border, var(--global-border-color));
     border-radius: 4px;
     margin-bottom: 8px; /* Reduced space between boxes */
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: var(--palette-box-bg, var(--global-bg-color));
   }
   .paper-box summary {
     padding: 10px 15px; /* Tighter padding */
-    background-color: #f8f9fa;
+    background-color: var(--palette-box-summary-bg, var(--global-bg-color));
     cursor: pointer;
     list-style: none;
     outline: none;
@@ -27,23 +27,26 @@ author_profile: true
   .paper-box summary::-webkit-details-marker {
     display: none;
   }
-  /* Dark Blue Header when opened */
+  /* Highlighted header when opened */
   .paper-box[open] summary {
-    background-color: #001f3f; 
-    color: white;
+    background-color: var(--palette-box-open-bg, var(--global-text-color));
+    color: var(--palette-box-open-text, var(--global-bg-color));
   }
-  /* Author Links - Slate Grey */
+  /* Author Links - muted text colour (inherits the white header text when open) */
   .paper-authors a, .archive__item-authors a {
-    color: #5a5a5a; 
+    color: var(--global-text-color-light);
     font-style: italic;
     text-decoration: none;
+  }
+  .paper-box[open] .paper-authors a {
+    color: inherit;
   }
   .paper-authors a:hover, .archive__item-authors a:hover {
     text-decoration: underline;
   }
   .paper-content {
     padding: 15px 20px;
-    border-top: 1px solid #e1e4e8;
+    border-top: 1px solid var(--palette-box-border, var(--global-border-color));
     line-height: 1.6;
     text-align: justify;
     font-size: 0.9em; /* Slightly smaller content text */
@@ -57,6 +60,10 @@ author_profile: true
   .paper-links {
     margin-top: 10px;
     display: block;
+  }
+  /* Status labels (Under Review / Job Market Paper); inherit the white text when the box is open */
+  .paper-box:not([open]) .paper-status {
+    color: var(--palette-status, var(--global-text-color));
   }
   .paper-links a {
     margin-right: 12px;
