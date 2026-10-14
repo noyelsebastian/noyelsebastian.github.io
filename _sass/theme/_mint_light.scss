@@ -55,6 +55,19 @@ $sidebar-screen-min-width   : 1024px;
   --global-text-color                 : #{$text};
   --global-text-color-light           : #{$text-muted};
   --global-thead-color                : #{$lighter-primary-color};
+
+  /* Custom palette variables (Research page, Teaching cards, sidebar) */
+  --palette-accent                    : #11999e;
+  --palette-sidebar                   : #40514e;
+  --palette-box-bg                    : #ffffff;
+  --palette-box-border                : #e1e4e8;
+  --palette-box-summary-bg            : #f8f9fa;
+  --palette-box-open-bg               : #001f3f;
+  --palette-box-open-text             : #ffffff;
+  --palette-status                    : #40514e;
+  --palette-card-bg                   : #ffffff;
+  --palette-card-border               : #e1e4e8;
+  --palette-card-title                : #0d7377;
 }
 
 footer {

@@ -1,0 +1,9 @@
+/* ==========================================================================
+   PALETTE HOOKS
+   Elements coloured by the active theme's --palette-* variables
+   (defined in _sass/theme/_<site_theme>_light.scss / _dark.scss).
+   ========================================================================== */
+
+.author__name {
+  color: var(--palette-sidebar, var(--global-text-color));
+}

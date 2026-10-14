@@ -10,15 +10,15 @@ author_profile: true
 <style>
   /* Styling for the Expandable Paper Boxes */
   .paper-box {
-    border: 1px solid #e1e4e8;
+    border: 1px solid var(--palette-box-border, var(--global-border-color));
     border-radius: 4px;
     margin-bottom: 8px; /* Reduced space between boxes */
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: var(--palette-box-bg, var(--global-bg-color));
   }
   .paper-box summary {
     padding: 10px 15px; /* Tighter padding */
-    background-color: #f8f9fa;
+    background-color: var(--palette-box-summary-bg, var(--global-bg-color));
     cursor: pointer;
     list-style: none;
     outline: none;
@@ -27,23 +27,26 @@ author_profile: true
   .paper-box summary::-webkit-details-marker {
     display: none;
   }
-  /* Dark Blue Header when opened */
+  /* Highlighted header when opened */
   .paper-box[open] summary {
-    background-color: #001f3f; 
-    color: white;
+    background-color: var(--palette-box-open-bg, var(--global-text-color));
+    color: var(--palette-box-open-text, var(--global-bg-color));
   }
-  /* Author Links - Slate Grey */
+  /* Author Links - muted text colour (inherits the white header text when open) */
   .paper-authors a, .archive__item-authors a {
-    color: #5a5a5a; 
+    color: var(--global-text-color-light);
     font-style: italic;
     text-decoration: none;
+  }
+  .paper-box[open] .paper-authors a {
+    color: inherit;
   }
   .paper-authors a:hover, .archive__item-authors a:hover {
     text-decoration: underline;
   }
   .paper-content {
     padding: 15px 20px;
-    border-top: 1px solid #e1e4e8;
+    border-top: 1px solid var(--palette-box-border, var(--global-border-color));
     line-height: 1.6;
     text-align: justify;
     font-size: 0.9em; /* Slightly smaller content text */
@@ -58,6 +61,10 @@ author_profile: true
     margin-top: 10px;
     display: block;
   }
+  /* Status labels (Under Review / Job Market Paper); inherit the white text when the box is open */
+  .paper-box:not([open]) .paper-status {
+    color: var(--palette-status, var(--global-text-color));
+  }
   .paper-links a {
     margin-right: 12px;
     font-weight: bold;
@@ -71,8 +78,10 @@ author_profile: true
 
 <details class="paper-box">
   <summary>
+    <a id="jmp"></a>
     <span class="paper-title">No Room of One’s Own: Inherited Norms and Women’s Lifetime Labor Market Non-Participation</span>
-    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>)  
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>)</span>
+    <span class="paper-status"><i>Job Market Paper</i></span>
   </summary>
   <div class="paper-content">
     Female labor force participation in India remains low despite sustained economic growth, with a large literature pointing to restrictive social norms as an important
@@ -84,13 +93,14 @@ author_profile: true
     not only whether women work, but also how the non-working role is valued within households.
     
     <div class="paper-links">
-      <a href="https://drive.google.com/file/d/1QSfbugNshWQeCQqTmSsIQgB5H1mek9Sd/view?usp=sharing">[Go to Paper]</a>
+      <a href="/files/Sebastian_JMP.pdf">[Go to Paper]</a>
     </div>
   </div> 
 </details>
 
 <details class="paper-box">
   <summary>
+    <a id="homes-of-harm"></a>
     <span class="paper-title">Homes of Harm: Spousal Violence and Child Malnutrition in India</span>
     <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a>)</span> 
     <span class="paper-status"><i>Under Review</i></span>
@@ -106,9 +116,38 @@ author_profile: true
     </div>
     
     <div class="paper-links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">[Go to paper]</a>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285989">[Go to Paper]</a>
     </div>
   </div>
+</details>
+
+<br>
+
+<h2 style="font-weight: bold; margin-bottom: 5px;">Work in Progress</h2>
+<hr style="margin-top: 0; margin-bottom: 15px;" />
+
+<details class="paper-box">
+  <summary>
+    <a id="returns-to-rest"></a>
+    <span class="paper-title">The Returns to Rest: Productivity in Knowledge Work</span>
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a> and Khushi Mehta)</span>
+  </summary>
+</details>
+
+<details class="paper-box">
+  <summary>
+    <a id="behind-the-veil"></a>
+    <span class="paper-title">Behind the Veil: Female Seclusion and the Gender Gap in Human Capital Investment</span>
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a> and <a href="https://chinmayisrikanth.github.io/">Chinmayi Srikanth</a>)</span>
+  </summary>
+</details>
+
+<details class="paper-box">
+  <summary>
+    <a id="social-connectedness"></a>
+    <span class="paper-title">Lifetime Labor Force Participation and Social Connectedness</span>
+    <span class="paper-authors">(with <a href="https://sites.google.com/site/rbaruabhowmik/">Rashmi Barua</a> and <a href="https://sites.google.com/view/abhiroop/home">Abhiroop Mukhopadhyay</a>)</span>
+  </summary>
 </details>
 
 <br>

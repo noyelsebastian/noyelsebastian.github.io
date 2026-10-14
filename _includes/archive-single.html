@@ -44,7 +44,7 @@
       
       {% elsif post.collection == 'publications' %}
         {% if post.co_authors %}
-          <p style="margin: 0; color: #52adc8; font-style: italic; font-weight: 500;">
+          <p style="margin: 0; color: var(--palette-card-title, #2f6b4f); font-style: italic; font-weight: 500;">
             With {{ post.co_authors }}
           </p>
         {% elsif post.venue %}

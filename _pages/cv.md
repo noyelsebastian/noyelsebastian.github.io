@@ -69,8 +69,8 @@ redirect_from:
 
 /* ===== MAP BUTTON ===== */
 .map-button {
-  background-color: #001f3f;
-  color: white;
+  background-color: var(--palette-box-open-bg, #234634);
+  color: var(--palette-box-open-text, #ffffff);
   border: none;
   border-radius: 4px;
   padding: 6px 12px;
@@ -80,7 +80,7 @@ redirect_from:
 }
 
 .map-button:hover {
-  background-color: #001f3f;
+  background-color: var(--palette-box-open-bg, #234634);
 }
 
 /* ===== LIST COMPACT ===== */
@@ -167,7 +167,7 @@ redirect_from:
 <ul class="compact-list">
   <li><strong>2025</strong> — Best Paper Award, 3rd MIDS Doctoral Colloquium</li>
   <li><strong>2023</strong> — Best Youth Paper Award, IASSH International Conference</li>
-  <li><strong>2023</strong> — Best Presentation Award,International Conference, DG Vaishnav College</li>
+  <li><strong>2023</strong> — Best Presentation Award, International Conference, DG Vaishnav College</li>
   <li><strong>2022</strong> — UGC Junior Research Fellowship (JRF)</li>
   <li><strong>2017</strong> — Loyola Research Park Fellowship</li>
 </ul>
@@ -201,16 +201,16 @@ document.addEventListener("DOMContentLoaded", function () {
   var conferences = [
     [26.5123, 80.2329, "<b>IIT Kanpur</b><br>&bull; Research Scholar's Day (Mar 2025)"],
     [23.0225, 72.5714, "<b>Ahmedabad University</b><br>&bull; 7th Annual Economics Conference (Jan 2026)"],
-    [28.5843, 77.2500, "<b>Delhi</b><br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)<br>&bull; CDE–IEDS International Conference, Delhi School of Economics (June 2026), "],
+    [28.5843, 77.2500, "<b>Delhi</b><br>&bull; IASSH 18th International Conference, Sharda University, Greater Noida (2023)<br>&bull; Young Scholar’s Conference, Delhi School of Economics (Feb 2025)<br>&bull; Sukhamoy Chakravarty Chair - Young Scholars Conference, JNU (Oct 2025)<br>&bull; CDE–IEDS International Conference, Delhi School of Economics (June 2026)<br>&bull; ESA-India BREW, Jawaharlal Nehru University, New Delhi (Dec 2026) (upcoming)"],
     [8.5241, 76.9366, "<b>Thiruvananthapuram</b><br>&bull; CDS Doctoral Colloquium (Mar 2025)<br>&bull; CMASE 3.0, University of Kerala (2022)"],
     [30.6425, 76.7179, "<b>Plaksha University, Chandigarh</b><br>&bull; LEO Economics Conference (Apr 2025)"],
     [34.0837, 74.7973, "<b>University of Kashmir</b><br>&bull; Annual CECFEE Research & Policy Workshop (Nov 2025)"],
-    [28.5398, 77.5390, "<b>Sharda University, Greater Noida</b><br>&bull; IASSH 18th International Conference (2023)"],
     [-15.7938, -47.8828, "<b>Brasilia, Brazil</b><br>&bull; 6th Meeting of the Society of Family and Gender Economics (2025, accepted; could not attend)"],
     [51.5115, -0.1160, "<b>King's College London</b><br>&bull; 27th YSI-AHE Conference (June 2025, Online)"],
     [40.2033, -8.4103, "<b>Coimbra, Portugal</b><br>&bull; Annual Heterodox Economics Conference, University of Coimbra (2026, accepted; could not attend)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
     [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
+    [-37.9105, 145.1340, "<b>Monash Business School, Melbourne</b><br>&bull; AYEW Applied Economist Job Market Webinar, Monash Business School (Oct 2026, Online) (upcoming)"],
   ];
 
   conferences.forEach(function(conf) {

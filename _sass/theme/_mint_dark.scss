@@ -120,6 +120,19 @@ html[data-theme="dark"] {
   --global-text-color                 : #{$text};
   --global-text-color-light           : #{$text-muted};
   --global-thead-color                : #{$background-lighter};
+
+  /* Custom palette variables (Research page, Teaching cards, sidebar) */
+  --palette-accent                    : #30e3ca;
+  --palette-sidebar                   : #e8f5f3;
+  --palette-box-bg                    : #243430;
+  --palette-box-border                : #3d5950;
+  --palette-box-summary-bg            : #2e443f;
+  --palette-box-open-bg               : #001f3f;
+  --palette-box-open-text             : #ffffff;
+  --palette-status                    : #b8d5d1;
+  --palette-card-bg                   : #243430;
+  --palette-card-border               : #3d5950;
+  --palette-card-title                : #4effd9;
 }
 
 /* Footer styling for dark mode */
