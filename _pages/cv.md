@@ -109,7 +109,7 @@ redirect_from:
     <div class="title">Ph.D. in Economics</div>
     <div class="subtitle"><strong>CSWE (CITD), Jawaharlal Nehru University, New Delhi</strong></div>
     <div class="details">Advisor: <a href="https://sites.google.com/site/rbaruabhowmik/">Dr. Rashmi Barua</a> </div>
-    <div class="details">Fields: Development Economics (Labor, Health, Gender)</div>
+    <div class="details">Fields: Applied Microeconomics, Development Economics (Labor, Health, Gender)</div>
   </div>
   <div class="entry-right">Feb 2023 – Dec 2026 (expected)</div>
 </div>
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
     [40.2033, -8.4103, "<b>Coimbra, Portugal</b><br>&bull; Annual Heterodox Economics Conference, University of Coimbra (2026, accepted; could not attend)"],
     [22.5763, 88.3639, "<b>IIM Calcutta</b><br>&bull; Amitava Bose Memorial Workshop (July 2025)"],
     [13.0827, 80.2707, "<b>Chennai</b><br>&bull; MIDS Doctoral Colloquium (Oct 2025)<br>&bull; DG Vaishnav College Conference (2023)"],
-    [-37.9105, 145.1340, "<b>Monash Business School, Melbourne</b><br>&bull; AYEW Applied Economist Job Market Webinar, Monash Business School (Oct 2026, Online) (upcoming)"],
+    [-37.9105, 145.1340, "<b>Monash Business School, Melbourne</b><br>&bull; AYEW Applied Economist Job Market Webinar, Monash Business School (Oct 2026, Online)"],
   ];
 
   conferences.forEach(function(conf) {
